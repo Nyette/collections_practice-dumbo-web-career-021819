@@ -14,12 +14,6 @@ def sort_array_char_count(array)
   end
 end
 
-def sort_array_desc(array)
-  array.sort do |a, b|
-    b <=> a
-  end
-end
-
 def swap_elements(array)
   # returns a new array where the 2nd and 3rd elements are swapped
   swapped_array = []
